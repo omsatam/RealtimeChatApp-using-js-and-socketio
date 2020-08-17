@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.message-head{
+    background-color: #414CC7;
+    color: #e3eae4;
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.message-head img{
+    width: 50px;
+    height:50px;
+}
+
+#container{
+    background-color: #C1C4DF;
+    width:100vw;
+    height:80vh;
+    max-width:100vw;
+    display:flex;
+    flex-direction: column;
+    overflow-y:auto;
+}
+
+
+.right{
+    float:right;
+    clear: both;
+}
+.left{
+    float:left;
+    clear:both;
+}
+
+.message-text{
+    background-color:#D3F272;
+    margin: 10px;
+    font-size: 22px;
+    list-style: none;
+    padding:8px;
+    border-radius:5px;
+}
+.center{
+    display:block;
+    margin:auto;
+    text-align: center;
+    clear:both;
+    background-color: blanchedalmond;
+}
+input{
+    background-color: white;
+    font-size: 20px;
+    padding: 5px;
+    width:80%;
+    margin-top:0;
+    outline: none;
+}
+#button{
+    margin-top: 0;
+    padding:10px;
+    width:15%;
+    margin:5px;
+}
