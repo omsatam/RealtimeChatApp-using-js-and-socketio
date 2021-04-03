@@ -1,4 +1,4 @@
-const socket = io();
+const io = require('socket.io')(8000)
 let name;
 let message = document.getElementById('message-input')
 let messagearea = document.getElementById('message-area')
