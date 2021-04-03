@@ -1,4 +1,4 @@
-const socket = io('https://realtime-chat-app-using-js-and-socketio.vercel.app:8000')
+const socket = io('http://localhost:8000');
 let name;
 let message = document.getElementById('message-input')
 let messagearea = document.getElementById('message-area')
