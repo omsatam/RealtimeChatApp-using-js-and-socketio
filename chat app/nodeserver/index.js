@@ -1,5 +1,5 @@
 // node server which will handle socket io connections
-const socket = require('socket.io')(8000)
+const socket = require('socket.io')
 const users = {};
 io.on('connection', socket => {
     socket.on('new-user-joined', name =>{
