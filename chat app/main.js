@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://chat-app-socketioserver.herokuapp.com/');
 let name;
 let message = document.getElementById('message-input')
 let messagearea = document.getElementById('message-area')
